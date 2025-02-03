@@ -50,7 +50,7 @@ async def them_api(u,ctx):la_admin(u)and len(ctx.args)>=1 and la_url_hop_le(ctx.
 async def xoa_tat_ca_api(u,_):la_admin(u)and(cfg:=doc_cau_hinh(),cfg.update(requests=[]),luu_cau_hinh(cfg),await gui_phoi_hop(u,URL_HINH['success'],'Đã xóa toàn bộ API'))or await gui_phoi_hop(u,URL_HINH['failure'],'Bạn không có quyền sử dụng lệnh này.')
 
 def main():
-    app=ApplicationBuilder().token("7588647057:AAEAeQ5Ft44mFiT5tzTEVw170pvSMsj1vJw").build()
+    app=ApplicationBuilder().token("7645949459:AAGHQKTFfhNG9fYH98lRuUFuq-Pvfj4U4JI").build()
     for c,f in zip(['attack','on','off','addapi','clearapi'],[tan_cong,bat_bot,tat_bot,them_api,xoa_tat_ca_api]):app.add_handler(CommandHandler(c,f))
     app.run_polling()
 
