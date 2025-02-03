@@ -4,7 +4,8 @@ from telegram.ext import ApplicationBuilder,CommandHandler,ContextTypes
 from datetime import datetime,timedelta
 
 URL_HINH={"loading":"https://ov20-engine.flamingtext.com/netfu/tmp28007/flamingtext_com-1656326255.png","success":"https://ov19-engine.flamingtext.com/netfu/tmp28007/flamingtext_com-3059895128.png","failure":"https://ov12-engine.flamingtext.com/netfu/tmp28016/coollogo_com-31571298.png"}
-ADMIN_IDS,NHOM_DUOC_PHEP=[7371969470,6409065734],[-1002434530321,-4455667788,-4455667788,-4455667788,-4455667788,-4455667788,-5566778899,-6677889900,-7788990011,-8899001122]
+ADMIN_IDS = [7371969470, 6409065734]
+NHOM_DUOC_PHEP = [-1002334544605, -4455667788, -4455667788, -4455667788, -4455667788, -4455667788, -5566778899, -6677889900, -7788990011, -8899001122]
 bot_trang_thai,trang_thai_nguoi_dung,trang_thai_may_chu={"hoat_dong":True},{},{}
 
 doc_cau_hinh=lambda f="server.json":json.load(open(f))or{"METHODS":"","requests":[]}
